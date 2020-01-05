@@ -22,22 +22,108 @@ ul, li {
 	padding: 0;
 }
 
+.menu li {
+	display: inline-block;
+}
+
 .container {
 	max-width: 1170px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
 
+header {
+	font-family: 'Roboto', sans-serif;
+}
+
 .header_top {
 	background-color: #303030;
+}
+
+.header__contacts:after { /*узнать*/
+	display: block;
+	clear: both;
+	content: "";
 }
 
 .header__btn {
 	float: right;
 	line-height: 36px;
 	color: #1b1b1b;
-	font-family: 'Roboto', sans-serif;
 	background-color: #ffc222;
 	padding: 5px 20px 4px 50px;
 	font-size: 15px;
+	position: relative;
+}
+
+.header__btn:before {
+	font-family: 'icomoon';
+	content: "\f0b1";
+	color: #1b1b1b;
+	position: absolute;
+	left: 22px;
+}
+
+
+.header__phone, 
+.header__email {
+	color: #cbcacb;
+	letter-spacing: 0.25px;
+	line-height: 45px;
+	position: relative; /*узнать*/
+}
+
+.header__phone {
+	padding-left: 20px;
+	padding-right: 30px;	
+}
+
+.header__phone:before { /*узнать*/
+	font-family: 'icomoon';
+	content: "\f095";
+	position: absolute; /*узнать*/
+	left: 0;
+	color: #ffc222;
+}
+
+.header__email {
+	padding-left: 24px;
+}
+
+.header__email:before {
+	font-family: 'icomoon';
+	content: "\f003";
+	color: #ffc222;
+	position: absolute;
+	left: 0;
+}
+
+.header_content {
+	padding: 34px 0px 23px;
+}
+
+.header__content-inner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu a {
+	font-size: 16px;
+	line-height: 36px;
+	color: #323232;
+	border: 1px solid transparent;
+	padding: 0px 16px;
+	transition: all .3s;	
+}
+
+.menu a:hover { /*узнать*/
+	border-color: #ffc222;
+}
+
+.menu li + li { /*узнать*/
+	padding-left: 10px;
 }
