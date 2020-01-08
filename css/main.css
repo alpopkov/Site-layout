@@ -50,7 +50,7 @@ header {
 	float: right;
 	line-height: 36px;
 	color: #1b1b1b;
-	background-color: #ffc222;
+	background-color: #7fe619;
 	padding: 5px 20px 4px 50px;
 	font-size: 15px;
 	position: relative;
@@ -83,7 +83,7 @@ header {
 	content: "\f095";
 	position: absolute; /*узнать*/
 	left: 0;
-	color: #ffc222;
+	color: #7fe619;
 }
 
 .header__email {
@@ -93,7 +93,7 @@ header {
 .header__email:before {
 	font-family: 'icomoon';
 	content: "\f003";
-	color: #ffc222;
+	color: #7fe619;
 	position: absolute;
 	left: 0;
 }
@@ -121,7 +121,7 @@ header {
 }
 
 .menu a:hover { /*узнать*/
-	border-color: #ffc222;
+	border-color: #7fe619;
 }
 
 .menu li + li { /*узнать*/
@@ -172,7 +172,7 @@ header {
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
     padding: 8px 30px 8px 24px;
-    border: 1px solid #ffc222;
+    border: 1px solid #7fe619;
     border-right-width: 20px;
     position: relative;
     outline: none;
@@ -201,7 +201,7 @@ header {
 	color: #fff;
 	cursor: pointer;
 	outline: none;
-	background-color: #ffc222;
+	background-color: #7fe619;
 }
 
 .slick-btn.slick-disabled {
